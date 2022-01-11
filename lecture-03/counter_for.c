@@ -11,7 +11,6 @@
 void main(void)
 {
 int loop_counter = 0;
-
   
   for (loop_counter = 0; loop_counter <= 9; loop_counter++)
   {
