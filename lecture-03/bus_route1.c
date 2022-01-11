@@ -20,7 +20,6 @@ int route_number = 0,
 
 char driver_name[25] = "";
 
-
   printf("Please enter your name: ");
   gets(driver_name);
 
