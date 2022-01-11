@@ -5,7 +5,6 @@
 
   This program demonstrates a clever way of printing ASCII
   characters, and their values
-
 */
 
 #include <stdio.h>
