@@ -1,8 +1,7 @@
 /*
   Program "area1.c"
 
-  This program asks the user for the width, and length of a room
-  then calculates that rooms area.
+  This program asks the user for the width, and length of a room then calculates that rooms area.
 */
 
 #include <stdio.h>
@@ -16,7 +15,7 @@ float room_width = 0.0f,
   printf("Please enter the room width (feet): ");
   scanf("%d",&room_width);
 
-	printf("Please enter the room length (feet): ");
+  printf("Please enter the room length (feet): ");
   scanf("%d",&room_length);
 
   room_area = room_width * room_length;
