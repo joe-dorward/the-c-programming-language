@@ -1,9 +1,9 @@
 /*
-  Program AsciiTableHtml.c
+  Program ascii_table_html_file.c
   Written by: Joe Dorward
   Date: 01/05/02
 
-  This creates an ASCII table in html format
+  This writes an ASCII table (in html format) to a file
 */
 
 #include <stdio.h>
