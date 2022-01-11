@@ -3,8 +3,7 @@
   Written by: Joe Dorward
   Date: 03/18/00
 
-  This program demonstrates the basic use of the if - else statement,
-  by testing for a negative number.
+  This program demonstrates the basic use of the if - else statement, by testing for a negative number.
 */
 
 #include <stdio.h>
