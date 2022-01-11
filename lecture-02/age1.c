@@ -3,8 +3,8 @@
   Written by: Joe Dorward
   Date: 05/24/00
 
-  This program demonstrates the basic use of the if - else 
-  statement.  It asks the user to enter a customer's age
+  This program demonstrates the basic use of the if - else statement.  
+  It asks the user to enter a customer's age
 */
 
 #include <stdio.h>
