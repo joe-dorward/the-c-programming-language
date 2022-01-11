@@ -3,8 +3,7 @@
   Written by: Joe Dorward
   Date: 06/01/00
 
-  This program does something interesting with characters
-  and for() loops
+  This program does something interesting with characters and for() loops
 */
 
 #include <stdio.h>
