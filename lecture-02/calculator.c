@@ -3,8 +3,7 @@
   Written by: Joe Dorward
   Date: 07/18/00
 
-  This program asks for two numbers and a sign, then performs
-  that calculation
+  This program asks for two numbers and a sign, then performs that calculation
 */
 
 #include <stdio.h>
