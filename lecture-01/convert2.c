@@ -1,10 +1,9 @@
 /*
-	Program convert2.c
-	Written by: Joe Dorward
-	Date: 05/17/00
+  Program convert2.c
+  Written by: Joe Dorward
+  Date: 05/17/00
 
-	This program asks for a number of inches, and converts
-	it to yards, feet, and inches
+  This program asks for a number of inches, and converts it to yards, feet, and inches
 */
 
 #include <stdio.h>
@@ -12,7 +11,7 @@
 void main(void)
 {
 int input_inches = 0,
-	  output_feet = 0,
+    output_feet = 0,
     output_inches = 0;
 
   printf(" Please enter a number of inches: ");
