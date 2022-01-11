@@ -16,7 +16,6 @@ int loop_counter = 1,
     the_total = 0,
     the_average = 0;
 
-
   do
   {
     printf(" Please enter a number: ");
