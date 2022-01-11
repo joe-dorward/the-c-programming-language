@@ -3,8 +3,7 @@
   Written by: Joe Dorward
   Date: 03/19/00
 
-  This program reads in an integer from the user,
-  then writes out the multiplication-table for that integer.
+  This program reads in an integer from the user, then writes out the multiplication-table for that integer.
  
   As a demonstration of the use of a for-loop, and field width specifiers.
 */
