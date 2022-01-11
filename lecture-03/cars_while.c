@@ -19,7 +19,6 @@ int number_of_passengers = 0,
     total_passengers = 0,
     number_of_cars = 0;
 
-
   printf("How many passengers in this vehicle: ");
   scanf("%d",&number_of_passengers);
 
