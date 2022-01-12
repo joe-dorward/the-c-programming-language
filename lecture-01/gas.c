@@ -2,7 +2,7 @@
   Program "gas.c"
 
   This program asks the user how many gallons of gasoline they want.
-	It then calculates the total price, and to the screen.
+  It then calculates the total price, and to the screen.
 */
 
 #include <stdio.h>
