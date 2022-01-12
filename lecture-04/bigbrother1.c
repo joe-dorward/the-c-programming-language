@@ -16,7 +16,6 @@ char subjects_name[25] = "",
      subjects_date_of_birth[10] = "",
      subjects_income[25] = "";
 
-
   // get the information
   printf(" Enter the subject\'s name: ");
   gets(subjects_name);
@@ -29,7 +28,6 @@ char subjects_name[25] = "",
 
   printf(" Enter the subject\'s income: ");
   gets(subjects_income);
-
 
   // print out the information
   printf("\n Subject: %s \n",subjects_name);
