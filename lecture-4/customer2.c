@@ -27,18 +27,13 @@ struct a_customer_record   /* define a data structure */
 struct a_customer_record first_customer_record;   /* declare a data structure */
 
   /* get the new data to put into the data structure */
-
   printf("\n Enter the customer\'s name: ");
   gets(new_name);
 
-
   /* copy new data into the field's of the structure */
-
   strcpy(first_customer_record.customer_name_field,new_name);
 
-
   /* Now print data from the structure */
-
   printf("\n The customer\'s name is: ");
   printf("%s",first_customer_record.customer_name_field);
 }
