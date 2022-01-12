@@ -23,15 +23,15 @@ int menu_choice = 0;
   scanf("%d",&menu_choice);
  
   if (menu_choice == 1)
-	{
+  {
     printf("\n You want to check your balance. \n\n");
-	}
+  }
   else if (menu_choice == 2)
-	{
+  {
     printf("\n You want to withdraw cash. \n\n");
-	}
+  }
   else if (menu_choice == 3)
-	{
+  {
     printf("\n You want to transfer cash. \n\n");
-	}
+  }
 }
