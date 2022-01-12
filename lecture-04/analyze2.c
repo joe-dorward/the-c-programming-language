@@ -24,24 +24,24 @@ char a_character = ' ',
 
   while (a_paragraph[element_number] != '\0')
   {
-		if (a_paragraph[element_number] == ' ')
-		{
-			space_counter++;
-		}
+    if (a_paragraph[element_number] == ' ')
+    {
+      space_counter++;
+    }
     else if (a_paragraph[element_number] == '.')
-		{
-			period_counter++;
-		}
+    {
+      period_counter++;
+    }
     else
     {
-		  character_counter++;
+      character_counter++;
     }
 
     element_number++;
   }
  
-	printf("The text, contains: \n");
-	printf("\t %3d characters. \n",character_counter);
-	printf("\t %3d words. \n",space_counter);
-	printf("\t %3d sentences. \n\n",period_counter);
+  printf("The text, contains: \n");
+  printf("\t %3d characters. \n",character_counter);
+  printf("\t %3d words. \n",space_counter);
+  printf("\t %3d sentences. \n\n",period_counter);
 }
