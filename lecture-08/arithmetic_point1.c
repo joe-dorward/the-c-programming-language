@@ -20,13 +20,10 @@ int first_number = 0,
   printf("Please enter the first number: ");
   scanf("%d",&first_number);
 
-
   printf("Please enter the second number: ");
   scanf("%d",&second_number);
 
-
   arithmetic(&first_number,&second_number,&added);   // call the function
-
 
   // print results ===========================================================
   printf("\n"); 
