@@ -3,8 +3,7 @@
   Written by: Joe Dorward
   Date: 03/11/00
 
-  This program is based on the program "phone1.c", 
-	but stores the data in the file "phone.dat"
+  This program is based on the program "phone1.c", but stores the data in the file "phone.dat"
   */
 
 #include <stdio.h>
@@ -54,34 +53,33 @@ FILE *pointer_to_file;   /* file pointer variable */
   
   pointer_to_file = fopen("phone.dat","r");
 
-	fgets(entered_name,50,pointer_to_file);   /* read first name line from file */
-	entered_name[strlen(entered_name) - 1] = '\0';
+  fgets(entered_name,50,pointer_to_file);   /* read first name line from file */
+  entered_name[strlen(entered_name) - 1] = '\0';
 
-	loop_counter = 0;
+  loop_counter = 0;
   while (!feof(pointer_to_file))
   {
     strcpy(my_phone_book[loop_counter].name_field,entered_name);
 
-		fgets(entered_address,70,pointer_to_file);
-		entered_address[strlen(entered_address) - 1] = '\0';
+    fgets(entered_address,70,pointer_to_file);
+    entered_address[strlen(entered_address) - 1] = '\0';
     strcpy(my_phone_book[loop_counter].address_field,entered_address);
 
     fgets(entered_area_code,10,pointer_to_file);
-		entered_area_code[strlen(entered_area_code) - 1] = '\0';
+    entered_area_code[strlen(entered_area_code) - 1] = '\0';
     strcpy(my_phone_book[loop_counter].area_code_field,entered_area_code);
 
     fgets(entered_telephone_number,10,pointer_to_file);
-		entered_telephone_number[strlen(entered_telephone_number) - 1] = '\0';
+    entered_telephone_number[strlen(entered_telephone_number) - 1] = '\0';
     strcpy(my_phone_book[loop_counter].telephone_number_field,entered_telephone_number);
-
-
-		fgets(entered_name,50,pointer_to_file);   /* read next name line from file */
-		entered_name[strlen(entered_name) - 1] = '\0';
-		loop_counter++;
+	  
+    fgets(entered_name,50,pointer_to_file);   /* read next name line from file */
+    entered_name[strlen(entered_name) - 1] = '\0';
+    loop_counter++;
   }
-	fclose(pointer_to_file);
+  fclose(pointer_to_file);
 
-	entry_number = loop_counter;
+  entry_number = loop_counter;
 /* ============================================================= */
 /* Display program menu */
 
@@ -110,37 +108,35 @@ FILE *pointer_to_file;   /* file pointer variable */
       }
       else
       {
-				pointer_to_file = fopen("phone.dat","a");   /* open the file to add */
+        pointer_to_file = fopen("phone.dat","a");   /* open the file to add */
 
         printf("\n Enter the new name: ");
         gets(entered_name);
-				strcpy(my_phone_book[entry_number].name_field,entered_name);
-				fputc('\n',pointer_to_file);  /* take newline in file */
-				fprintf(pointer_to_file,"%s",entered_name);   /* add new name to file */
-
+        strcpy(my_phone_book[entry_number].name_field,entered_name);
+        fputc('\n',pointer_to_file);  /* take newline in file */
+        fprintf(pointer_to_file,"%s",entered_name);   /* add new name to file */
 
         printf(" Enter the new address: ");
         gets(entered_address);
         strcpy(my_phone_book[entry_number].address_field,entered_address);
-				fputc('\n',pointer_to_file);  /* take newline in file */
-				fprintf(pointer_to_file,"%s",entered_address);   /* add new address to file */
-
+        fputc('\n',pointer_to_file);  /* take newline in file */
+        fprintf(pointer_to_file,"%s",entered_address);   /* add new address to file */
 
         printf(" Enter the new area code: ");
         gets(entered_area_code);
         strcpy(my_phone_book[entry_number].area_code_field,entered_area_code);
-				fputc('\n',pointer_to_file);  /* take newline in file */
-				fprintf(pointer_to_file,"%s",entered_area_code);   /* add new area code to file */
+        fputc('\n',pointer_to_file);  /* take newline in file */
+        fprintf(pointer_to_file,"%s",entered_area_code);   /* add new area code to file */
 
 
         printf(" Enter the new telephone number: ");
         gets(entered_telephone_number);
         strcpy(my_phone_book[entry_number].telephone_number_field,entered_telephone_number);				
-				fputc('\n',pointer_to_file);  /* take newline in file */
-				fprintf(pointer_to_file,"%s",entered_telephone_number);   /* add new phone number to file */
+        fputc('\n',pointer_to_file);  /* take newline in file */
+        fprintf(pointer_to_file,"%s",entered_telephone_number);   /* add new phone number to file */
 
         entry_number++;   /* increment entry_number */
-				fclose(pointer_to_file);
+        fclose(pointer_to_file);
       }
     }   /* end of add an entry */
 /* =================================================================== */
@@ -173,9 +169,9 @@ FILE *pointer_to_file;   /* file pointer variable */
         if (strcmp(my_phone_book[entries_looked_at].name_field,entered_name) == 0)
         {
           printf("\n %s,",my_phone_book[entries_looked_at].name_field);
-            printf("%s,",my_phone_book[entries_looked_at].address_field);
-            printf("%s,",my_phone_book[entries_looked_at].area_code_field);
-            printf("%s.",my_phone_book[entries_looked_at].telephone_number_field);
+          printf("%s,",my_phone_book[entries_looked_at].address_field);
+          printf("%s,",my_phone_book[entries_looked_at].area_code_field);
+          printf("%s.",my_phone_book[entries_looked_at].telephone_number_field);
 
           found = 1;   /* set entry found exit condition */
         }
