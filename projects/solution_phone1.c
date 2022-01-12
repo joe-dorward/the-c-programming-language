@@ -4,8 +4,7 @@
   Date: 03/11/00
 
   This program is the C Programming, Level I project.
-  It is a small telephone book program, consisting of an array
-  of structures
+  It is a small telephone book program, consisting of an array of structures
 */
 
 #include <stdio.h>
