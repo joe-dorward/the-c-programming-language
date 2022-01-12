@@ -1,13 +1,15 @@
 /*
-  Program "add_test_do.c"
+  Program "add_test2.c"
   written by: Joe Dorward
   Date: 05/30/00
 
   This program asks the user for two numbers.
   It then asks the user what they add up to.
-  It then checks the answer in an if() statement,	and prints out a right/wrong message.
+  It then checks the answer in an if() statement,
+  and prints out a right/wrong message.
 
-  It will ask repeatedly for an answer until a correct one is entered.
+  It will ask repeatedly for an answer until a correct
+  one is entered
 */
 
 #include <stdio.h>
@@ -45,6 +47,6 @@ int first_number = 0,
       printf("\n Boy did you get it wrong! \n");
       printf(" Try again! \n");
     }
-	  
+
   } while(flag == 0);
 }
