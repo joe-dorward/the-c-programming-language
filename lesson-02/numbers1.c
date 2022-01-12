@@ -15,18 +15,17 @@ int the_number;
 
   printf("\n Please enter a whole-number (0 - 9): ");
   scanf("%d",&the_number);
-
  
   if (the_number == 0)
-	{
+  {
     printf("\n Zero. \n");
-	}
+  }
   else if (the_number == 1)
-	{
+  {
     printf("\n One. \n");
-	}
+  }
   else if (the_number == 2)
-	{
+  {
     printf("\n Two. \n");
-	}
+  }
 }
