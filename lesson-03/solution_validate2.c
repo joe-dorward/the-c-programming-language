@@ -18,17 +18,17 @@ int the_month = 0,
 
   do
   {
-  	// Ask for a number
+    // Ask for a number
     printf(" Please the month: ");
- 	  scanf("%d",&the_month);
+    scanf("%d",&the_month);
 
-  	// test the entered month value, and choose a message
-  	if ( (the_month >= 1) && (the_month <= 12) )
+    // test the entered month value, and choose a message
+    if ( (the_month >= 1) && (the_month <= 12) )
     {
-  		printf("\n OK -- Good value. \n");
+      printf("\n OK -- Good value. \n");
       flag = 1;
     }
-  	else
+    else
     {
       printf("\n Not OK -- Bad value \n");
     }
