@@ -2,7 +2,7 @@
   Program "read_write1.c"
 
   This program will open any file, read it, and print its contents to the screen
-	one character at a time
+  one character at a time
 */
 
 #include <stdio.h>
@@ -16,7 +16,6 @@ char file_name[15];  /* variable for storing the file name */
 
 FILE *pointer_to_file;   /* the file pointer variable */
 
-
   printf("Filename to show: ");   /* ask user for filename */
   gets(file_name);
 
@@ -24,12 +23,11 @@ FILE *pointer_to_file;   /* the file pointer variable */
 
   a_character = fgetc(pointer_to_file);   /* read first character from file */
 
-
   while (a_character != EOF)
   {
     putchar(a_character);   /* write the character to the screen */
 	
-	a_character = fgetc(pointer_to_file);   /* get next character */
+    a_character = fgetc(pointer_to_file);   /* get next character */
   }
 
   fclose(pointer_to_file);   /* close file */
