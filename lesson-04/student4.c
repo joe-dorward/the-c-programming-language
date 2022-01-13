@@ -35,7 +35,7 @@ struct a_student_record first_student_record;
   gets(temp_name);
   strcpy(first_student_record.student_name_field,temp_name);
 
-// add the code for entering and copying other data values here
+  // add the code for entering and copying other data values here
 
   // ================================================================
   /* Now print data from the structure */
@@ -44,5 +44,6 @@ struct a_student_record first_student_record;
   printf("\n The student\'s name is: ");
   printf("%s \n\n",first_student_record.student_name_field);
 
-// add the code for printing other data fields here
+  // add the code for printing other data fields here
+  
 }
