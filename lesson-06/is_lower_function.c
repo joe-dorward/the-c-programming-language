@@ -18,8 +18,7 @@ char the_character = ' ';
 /* ================================================================== */
 
   printf("\n Please enter a lowercase letter: ");
-  scanf("%c",&the_character);
-  
+  scanf("%c",&the_character);  
 
   if (is_lowercase(the_character) == 1)   /* function call in test condition */
   {
