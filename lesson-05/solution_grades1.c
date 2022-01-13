@@ -23,24 +23,21 @@ int the_grade = 0,
     scanf("%d",&the_grade);
 
     if ( (the_grade >= 91) && (the_grade < 101) )
-	  {
+    {
       a_grades++;
-  	}
-
+    }
     else if ( (the_grade >= 81) && (the_grade <= 90) )
-	  {
+    {
       b_grades++;
-  	}
-
+    }
     else if ( (the_grade >= 71) && (the_grade <= 80) )
-  	{
+    {
       c_grades++;
-	  }
-
+    }
     else if ((the_grade <= 70) && (the_grade >= 0) )
-  	{
+    {
       d_grades++;
-	  }
+    }
   } while(the_grade > -1);
 
   printf("\nThe number of \"A\" grades, is: %d \n",a_grades);
