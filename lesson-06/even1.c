@@ -16,8 +16,7 @@ void main(void)
 int number_one = 0;
 
   printf("\n Please enter an number: ");
-  scanf("%d",&number_one);
-  
+  scanf("%d",&number_one);  
 
   if (is_it_even1(number_one) == 1)   /* function call checking return value*/
   {
