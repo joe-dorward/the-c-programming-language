@@ -20,19 +20,19 @@ char the_number[10] = "";
     gets(the_number);
 
     if (strcmp(the_number,"zero") == 0)
-	  {
+    {
       printf(" 0 \n");
-  	}
+    }
    
     if (strcmp(the_number,"one") == 0)
-	  {
+    {
       printf(" 1 \n");
-  	}
+    }
 
     if (strcmp(the_number,"three") == 0)
-	  {
+    {
       printf(" 3 \n");
-  	}
+    }
 
   } while( strcmp(the_number,"quit") != 0);
   
