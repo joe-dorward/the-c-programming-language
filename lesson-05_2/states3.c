@@ -40,7 +40,6 @@ struct a_state_record array_of_states[55] = {"Alabama", "Montgomery",
   printf(" Please enter a state name : ");
   gets(temp_state_name);
 
-
   while( ( (strcmp(array_of_states[state_number].state_name_field,"") != 0) ) && (flag == 0) )
   {
     if ( strcmp(array_of_states[state_number].state_name_field, temp_state_name) == 0)
