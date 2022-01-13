@@ -28,7 +28,6 @@ char first_string[25] = "",
     printf(" and: %s are the same. \n",second_string);
   }
 
-
   // first is first
   if ( strcmp(first_string,second_string) < 0 )
   {
@@ -36,7 +35,6 @@ char first_string[25] = "",
     printf("\n The string: %s, comes",first_string);
     printf(" before the string: %s. \n",second_string);
   }
-
 
   // second is first
   if ( strcmp(first_string,second_string) > 0 )
