@@ -48,34 +48,35 @@ int menu_choice = 0,
       total_price = total_price + (burger_price * number_of_burgers);
     }
     else if (menu_choice == 2)
-  	{
+    {
       printf("\n How many MacWesty Cheese Burgers? ");
       scanf("%d",&number_of_cheese_burgers);
 
       total_price = total_price + (cheese_burger_price * number_of_cheese_burgers);
-  	}
+    }
     else if (menu_choice == 3)
-  	{
+    {
       printf("\n How many MacWesty Fries? ");
       scanf("%d",&number_of_fries);
 
       total_price = total_price + (fries_price * number_of_fries);
- 	  }
+    }
     else if (menu_choice == 4)
-	  {
+    {
       printf("\n How many MacWesty Onion rings? ");
       scanf("%d",&number_of_onion_rings);
 
       total_price = total_price + (onion_rings_price * number_of_onion_rings);
-	  }
+    }
       else if (menu_choice == 5)
-	  {
+    {
       printf("\n How many MacWesty Shakes? ");
       scanf("%d",&number_of_shakes);
 
       total_price = total_price + (shake_price * number_of_shakes);
-	  }
-  }while(menu_choice != 0);
+    }
+	  
+  } while(menu_choice != 0);
 
   printf("\n =================================== \n");
   printf(" Your order is: \n");
