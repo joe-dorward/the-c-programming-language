@@ -24,8 +24,8 @@ FILE *pointer_to_file;   // the file pointer variable
 
   pointer_to_file = fopen("paycheck.dat","w");   // open file for writing
 
-	printf(" Enter employee\'s name: ");
-	gets(employee_name);
+  printf(" Enter employee\'s name: ");
+  gets(employee_name);
 
   while (strcmp(employee_name,"quit") != 0)
   {
