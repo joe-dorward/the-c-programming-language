@@ -4,7 +4,7 @@
   Date: 04/28/00
 
   This program assigns float values into an array from a file for the daily 
-	price of gold in London.
+  price of gold in London.
 
   Then it asks for a price from the user, and it tells the user
   how many days the price of gold closed in London higher than that.
@@ -31,26 +31,25 @@ float highest_price = -100,
 
   for (element_number = 1; element_number <= 35; element_number++)
   {
-		/* read temperatures into array */
-	  fscanf(pointer_to_file,"%f",&london_gold_closing[element_number]);
+    /* read temperatures into array */
+    fscanf(pointer_to_file,"%f",&london_gold_closing[element_number]);
   }
 
   fclose(pointer_to_file);	/* close file */
 
- 
   for (element_number = 1; element_number <= 35; element_number++)
   {
-		// find highest temperature
-  	if (london_gold_closing[element_number] > highest_price)   
-		{
-	    highest_price = london_gold_closing[element_number];
-		}
+    // find highest temperature
+    if (london_gold_closing[element_number] > highest_price)   
+    {
+      highest_price = london_gold_closing[element_number];
+    }
 
-		// find lowest temerature
-  	if ( (london_gold_closing[element_number] < lowest_price) && (london_gold_closing[element_number] > 0) )
-		{
-	    lowest_price = london_gold_closing[element_number];
-		}
+    // find lowest temerature
+    if ( (london_gold_closing[element_number] < lowest_price) && (london_gold_closing[element_number] > 0) )
+    {
+      lowest_price = london_gold_closing[element_number];
+    }
   }
 
   printf("\n The highest price of gold last month was: $%3.2f \n",highest_price);
