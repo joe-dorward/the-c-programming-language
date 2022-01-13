@@ -16,7 +16,6 @@ char student_name[25] = "",
      student_date_of_birth[10] = "",
      student_program[25] = "";
 
-
   printf(" Enter the student\'s name: ");
   gets(student_name);
 
@@ -28,7 +27,6 @@ char student_name[25] = "",
 
   printf(" Enter the student\'s program: ");
   gets(student_program);
-
 
   printf("\n Student: %s \n",student_name);
   printf(" Address: %s \n",student_address);
