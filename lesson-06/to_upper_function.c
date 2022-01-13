@@ -1,5 +1,5 @@
 /*
-  Program to_upper.c
+  Program to_upper_function.c
   written by: Joe Dorward
   Date: 07/15/00
 
