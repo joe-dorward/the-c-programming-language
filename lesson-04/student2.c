@@ -13,7 +13,6 @@ void main(void)
 {
 char student_name[25] = "";
 
-
   printf("\n Enter your name: ");
   gets(student_name);
 
